@@ -2,7 +2,7 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
+url: 'https://elhadiq.github.io'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
@@ -10,12 +10,11 @@ url: 'http://webjeda.com'
 
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
+theme_skin: #2c3e50 # blue turquoise green berry orange ceramic
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# Tracker
-analytics: UA-83979019-1
-
+color-1: #34495e
+color-2: #353b48
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -29,8 +28,3 @@ compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
     envs: development
-
-# Development Settings
-port: 4000
-host: 0.0.0.0
-safe: false
